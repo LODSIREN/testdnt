@@ -1,0 +1,346 @@
+
+body{
+  margin:0 ;
+  padding: 0;
+  overflow-x: hidden;
+	background:rgb(25, 25, 25);
+	left: 0;
+	right: 0;
+	top: 0;
+
+
+}
+
+body::-webkit-scrollbar {
+  width: 0px;           
+}
+body::-webkit-scrollbar-track {
+  background: orange;     
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    
+  border-radius: 20px;       
+  border: 3px solid orange;  
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;600&family=PT+Serif&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+
+/* __________________________________________________(header)_____________________________________________________________*/
+
+.header{
+
+	min-width: 100vw;
+	height: 55px;
+	position: fixed;
+	z-index: 3;
+	margin: 0;
+
+}
+
+
+.glass{
+	position: absolute;
+	min-width: 100vw;
+	height: 100%;	
+	backdrop-filter: blur(3px);
+  background: linear-gradient(360deg, rgb(0, 0, 0, 0.5), transparent);
+  box-shadow: 0px 10px 20px black;
+ 
+
+}
+
+.bad_glass{
+
+	position: absolute;
+	min-width: 100vw;
+	height: 100%;	
+
+
+  backdrop-filter:  hue-rotate(90deg);
+ 
+}
+
+
+
+.header-position{
+	height: 100%;
+	position: relative;
+	margin: 0;
+
+
+}
+
+
+.bacr_logo-dnt{
+	z-index: 1;
+	width: 125px;
+
+
+
+
+	position: absolute;
+	height: 100%;
+	background: rgb(0, 255, 255);
+	margin: auto;
+	left: 0;
+	right: 0;
+
+
+	clip-path: polygon(
+		     0 0,
+				 100% 0, 
+				 90% 100%,
+				 10% 100%
+
+				);
+
+
+}
+
+
+.bacr_logo-dnt-2{
+
+	position: absolute;
+	width: 95%;
+	height: 96%;
+
+	background: black;
+	margin: auto;
+	left: 0;
+	right: 0;
+  color: rgb(0, 255, 251);
+
+	clip-path: polygon(
+		     0 0,
+				 100% 0, 
+				
+				 90% 100%,
+				 10% 100%);
+}
+
+
+
+.text_logo{
+	margin: auto;
+	left:3px;
+	right: 0;
+	text-align: center;
+  
+  top: 2px;
+
+	font-size: 42px;
+	color: rgb(0, 255, 251);
+	position: absolute;
+
+   text-shadow: 0 0 6px rgb(0, 255, 251);
+}
+
+.mut{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	background: url('../photo/mut.png');
+}
+
+/* __________________________________________________(header)_____________________________________________________________*/
+
+
+
+.D_top_text{
+	width: 1300px;
+	margin: auto;
+	color: white;
+
+	padding-top: 90px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.D_FLEX_two{
+	padding-top: 20px ;
+	width:1300px;
+	margin: auto;
+	display: flex;
+ gap: 30px;
+}
+
+.D-F-1{
+
+	font-size: 25px;
+	width: 500px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.D-F-2{
+
+width: 770px;
+height: 540px;
+background: url('../photo/ban_disc.png');
+
+}
+
+.note{
+
+	width: 1300px;
+	box-sizing: border-box;
+	padding: 20px;
+	background: rgb(15, 15, 15);
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+.note_up{
+	font-size: 25px;
+ text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.note_mid{
+
+	font-size: 25px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.link_D{
+	color: rgb(0, 217, 255);
+
+}
+
+.link_D:HOVER{
+	color: rgb(0, 217, 255);
+text-decoration: underline;
+
+}
+.GRID_D_button{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	gap: 30px;
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;}
+
+.d_button{
+	text-align: center;
+
+	padding: 5px;
+	background: rgb(224, 224, 224);
+
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.d_button:hover{
+	filter: invert(100%);
+		color: red;
+}
+
+
+
+
+
+.D_top_text{
+	width: 1300px;
+	margin: auto;
+	color: white;
+
+	padding-top: 90px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.D_FLEX_two{
+	padding-top: 20px ;
+	width:1300px;
+	margin: auto;
+	display: flex;
+ gap: 30px;
+}
+
+.D-F-1{
+
+	font-size: 25px;
+	width: 500px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.D-F-2{
+
+width: 770px;
+height: 540px;
+background: url('../photo/ban_disc.png');
+
+}
+
+.note{
+
+	width: 1300px;
+	box-sizing: border-box;
+	padding: 20px;
+	background: rgb(15, 15, 15);
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+.note_up{
+	font-size: 25px;
+ text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.note_mid{
+
+	font-size: 25px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.link_D{
+	color: rgb(0, 217, 255);
+
+}
+
+.link_D:HOVER{
+	color: rgb(0, 217, 255);
+text-decoration: underline;
+
+}
+.GRID_D_button{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	gap: 30px;
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;}
+
+.d_button{
+	text-align: center;
+
+	padding: 5px;
+	background: rgb(224, 224, 224);
+
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.d_button:hover{
+	filter: invert(100%);
+		color: red;
+}

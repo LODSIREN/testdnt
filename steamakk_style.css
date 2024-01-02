@@ -1,0 +1,528 @@
+
+body{
+  margin:0 ;
+  padding: 0;
+  overflow-x: hidden;
+	background:rgb(25, 25, 25);
+	left: 0;
+	right: 0;
+	top: 0;
+
+
+}
+
+body::-webkit-scrollbar {
+  width: 0px;           
+}
+body::-webkit-scrollbar-track {
+  background: orange;     
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    
+  border-radius: 20px;       
+  border: 3px solid orange;  
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;600&family=PT+Serif&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+
+/* __________________________________________________(header)_____________________________________________________________*/
+
+.header{
+
+	min-width: 100vw;
+	height: 55px;
+	position: fixed;
+	z-index: 3;
+	margin: 0;
+
+}
+
+
+.glass{
+	position: absolute;
+	min-width: 100vw;
+	height: 100%;	
+	backdrop-filter: blur(3px);
+  background: linear-gradient(360deg, rgb(0, 0, 0, 0.5), transparent);
+  box-shadow: 0px 10px 20px black;
+ 
+
+}
+
+.bad_glass{
+
+	position: absolute;
+	min-width: 100vw;
+	height: 100%;	
+
+
+  backdrop-filter:  hue-rotate(90deg);
+ 
+}
+
+
+
+.header-position{
+	height: 100%;
+	position: relative;
+	margin: 0;
+
+
+}
+
+
+.bacr_logo-dnt{
+	z-index: 1;
+	width: 125px;
+
+
+
+
+	position: absolute;
+	height: 100%;
+	background: rgb(0, 255, 255);
+	margin: auto;
+	left: 0;
+	right: 0;
+
+
+	clip-path: polygon(
+		     0 0,
+				 100% 0, 
+				 90% 100%,
+				 10% 100%
+
+				);
+
+
+}
+
+
+.bacr_logo-dnt-2{
+
+	position: absolute;
+	width: 95%;
+	height: 96%;
+
+	background: black;
+	margin: auto;
+	left: 0;
+	right: 0;
+  color: rgb(0, 255, 251);
+
+	clip-path: polygon(
+		     0 0,
+				 100% 0, 
+				
+				 90% 100%,
+				 10% 100%);
+}
+
+
+
+.text_logo{
+	margin: auto;
+	left:3px;
+	right: 0;
+	text-align: center;
+  
+  top: 2px;
+
+	font-size: 42px;
+	color: rgb(0, 255, 251);
+	position: absolute;
+
+   text-shadow: 0 0 6px rgb(0, 255, 251);
+}
+
+.mut{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	background: url('../photo/mut.png');
+}
+
+/* __________________________________________________(header)_____________________________________________________________*/
+
+.top_black_backraund{
+	box-sizing: border-box;
+	width: 100vw;
+	padding: 30px;
+	padding-top:80px ;
+	background: rgb(11, 11, 11);
+}
+
+.text_block_left{
+	width: 800px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text_steam_akk{
+	color:  wheat;
+	font-size: 50px;
+
+}
+
+.MENU_LINIAR{
+	font-size: 25px;
+	margin-top: 30px;
+	color: wheat;
+	display: flex;
+	gap: 30px;
+
+}
+
+
+
+/* __________________________________________________(main_content)_____________________________________________________________*/
+
+.dicript_block{
+	min-width: 490px;
+	max-width: 800px;
+	padding: 30px;
+
+		font-family: 'Roboto', sans-serif;
+}
+
+
+
+.text_up_disc{
+		font-size: 40px;
+			color: white;
+}
+
+
+.mini_text{
+
+	font-size: 23px;
+			color: white;
+}
+
+
+.warning{
+	text-align: center;
+}
+
+
+
+.back_text{
+
+	margin-top: 30px;
+	padding: 30px;
+	background: rgb(11, 11, 11);
+}
+
+.button_pr{
+	
+	margin: auto;
+	margin-top: 30px;
+	width: 270px;
+	text-align: center;
+	color: black;
+	box-sizing: border-box;
+	padding: 5px;
+	background: white;
+
+
+}
+
+.button_pr:hover{
+filter: invert(100%);
+
+
+
+}
+
+a{
+    
+    text-decoration: none;
+    color: wheat;
+}
+
+.link:hover{
+
+ color: white;
+ text-decoration: underline;
+
+}
+
+
+
+
+
+
+/* __________________________________________________(main_steam_akk)_____________________________________________________________*/
+
+.flex_block{
+	display: flex;
+}
+
+.main_steam_akk{
+	margin-top: 30px;
+	
+	padding-right:30px ;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	
+
+
+	display: grid;
+	grid-template-columns: 1fr ;
+	color: white;
+	
+	gap: 30px;font-family: 'Roboto', sans-serif;
+
+	
+
+}
+
+.steam_akk_back{
+	color: white;
+	width: 100%;
+	min-width: 580px;
+	height: 200px;
+	background: black;
+	position: relative;
+}
+
+.name_akk{
+	padding: 20px;
+	font-size: 25px;
+}
+.disc_akk{
+	
+	padding-left: 20px;
+		padding-right: 20px;
+	font-size: 18px;
+
+}
+
+.duy{
+	position: absolute;
+	padding: 20px;
+	font-size: 15px;
+	bottom: 0;
+	right: 0;
+
+}
+
+
+/*         content  footer_1     */
+
+.footer_1{
+box-sizing: border-box;
+margin-top: 30px;
+width: 100vw;
+padding: 30px;
+ background: rgb(11,11,11);
+}
+
+.FT_block_text{
+	box-sizing: border-box;
+	width: 50vw;
+	margin: auto;
+	color: white;
+	   font-family: 'Roboto', sans-serif;
+	   text-align: center;
+}
+
+
+
+
+
+
+
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+/*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    *//*        media    */
+
+
+@media  (max-width: 1200px)  {
+
+
+
+.flex_block{
+	flex-direction: column;
+
+}
+
+ .top_black_backraund{
+	
+	padding: 50px;
+	padding-top:120px ;
+	
+}
+
+
+.text_steam_akk{
+
+	font-size: 80px;
+
+}
+
+
+
+.MENU_LINIAR{
+	font-size: 35px;
+	margin-top: 30px;
+flex-direction: column;
+justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+.dicript_block{
+	width: 100vw;
+	padding: 50px;
+	max-width: 88vw;
+			font-size: 35px;
+}
+
+.text_up_disc{
+		
+font-size: 25px;
+}
+.mini_text{
+
+font-size: 20px;
+
+	}
+
+
+
+.back_text{
+
+font-size: 15px;
+
+}
+
+.button_pr{
+	font-size: 35px;
+	margin-top: 40px;
+		margin-bottom: 40px;
+	width: 450px;
+
+
+
+}
+
+/*        media    */
+
+
+.main_steam_akk{
+	margin-top: 0px;
+	
+	padding-right:50px ;
+	padding-left:50px ;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	
+
+	
+	gap: 50px;
+	
+
+}
+
+.steam_akk_back{
+	
+	height: 400px;
+	
+}
+
+
+
+.name_akk{
+	padding: 30px;
+	font-size: 50px;
+}
+.disc_akk{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 35px;
+
+}
+
+.duy{
+	position: absolute;
+	padding: 30px;
+	font-size: 30px;
+	bottom: 0;
+	right: 0;
+
+}
+
+
+
+
+.footer_1{
+	font-size: 30px;
+}
+.FT_block_text{
+	box-sizing: border-box;
+	width: 58vw;
+	margin: auto;
+	color: white;
+	   font-family: 'Roboto', sans-serif;
+	   text-align: center;
+}
+
+
+
+
+
+.header{
+
+	min-width: 100vw;
+	height: 80px;
+	position: fixed;
+	z-index: 3;
+	margin: 0;
+
+
+}
+
+
+
+
+.bacr_logo-dnt{
+	z-index: 1;
+	width: 190px;
+
+
+
+
+}
+
+.text_logo{
+
+  
+  top: 2px;
+
+	font-size: 60px;
+
+}
+
+
+
+
+}
+
